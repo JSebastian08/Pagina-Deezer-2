@@ -1,0 +1,377 @@
+body{
+    background: #121215;
+    justify-content: center;
+    
+}
+header{
+    background: none;
+    display: flex;
+    justify-content: space-between
+}
+.menu::before{
+    background-image: linear-gradient(126.05deg, rgb(241 42 42/90%)25.95%, #bf1ceb 44.46%, #06ad57, rgb(6 173 87/0%) 76.7% );
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100%;
+    border-radius: 100%;
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+    height: 30vh;
+    left: 0;
+    margin-left: auto;
+    opacity: .9;
+    position: absolute;
+    right: 0;
+    width: 105%;
+    height: 110%;
+    z-index: -1;
+
+}
+button{
+    background: none;
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+}
+.menu h6{
+    color: white;
+    font-family:'Roboto';
+    font-size: 13px;
+    font-weight: 800;
+    
+}
+.button img{
+    height: 20px;
+       
+}
+.logo img{
+    height: 22px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.button2 button{
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    color: aliceblue;
+    background: none;
+    font-family:'Roboto';
+    font-size: 13px;
+    font-weight: 900;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.contenedor1 h1{
+    font-family: 'Mabry Pro';
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+}
+.rectangulo1{
+    background: #121215;
+    border-radius: 3px;
+    width: 600px;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 650px;
+
+}
+.rectangulo1 h6{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+}
+.rectangulo1 img{
+    height: 30px;
+    margin-top: 7px;
+}
+.rectangulo2{
+    background: linear-gradient(70deg, #8A58E6,#4B63F0,#39C0A6);
+    width: 600px;
+    height: 405px;
+    margin-top: 30px;
+    margin-left: 650px;
+    border-radius: 20px;
+    
+}
+.rectangulo2 h1{
+    font-family: 'Mabry Pro';
+    font-size: 35px;
+    cursor: pointer;
+}
+.rectangulo2 h4{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: white;
+    margin: 15PX;
+    text-align: center;
+}
+.rectangulo2 button{
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 800;
+    align-items: center;
+    margin-left: 140px;
+}
+.rectangulo2 h5{
+    
+    font-family: 'Roboto';
+    font-size: 19px;
+    color: white;
+    margin-left: 205px;
+    margin-top: -15px;
+    cursor: pointer;
+    
+    
+}
+.rectangulo2 p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+    margin-left: 150px;
+}
+.rectangulo2 h6{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #C6C6C6;
+    margin: 15PX;
+    text-align: center;
+    cursor: pointer;
+}
+.rectangulo3 button{
+    width: 600px;
+    height: 50px;
+    background: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 800;
+    align-items: center;
+    margin-left: 650px;
+}
+.rectangulo3 img{
+    height: 12px;
+    margin-left: 10px;
+}
+.rectangulo4{
+    background: linear-gradient(70deg, #DC4C13,#F7A52F);
+    width: 600px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 650px;
+    border-radius: 20px;
+}
+.rectangulo4 h1{
+    font-family: 'Mabry Pro';
+    font-size: 35px;
+    cursor: pointer;
+}
+.rectangulo4 h4{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: white;
+    margin: 15PX;
+    text-align: center;
+}
+.rectangulo4 button{
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 800;
+    align-items: center;
+    margin-left: 140px;
+}
+.rectangulo4 h5{
+    
+    font-family: 'Roboto';
+    font-size: 19px;
+    color: white;
+    margin-left: 205px;
+    margin-top: -15px;
+    cursor: pointer;
+    
+    
+}
+.rectangulo4 p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+    margin-left: 150px;
+}
+.rectangulo4 h6{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #C6C6C6;
+    margin: 15PX;
+    text-align: center;
+    cursor: pointer;
+}
+.rectangulo5{
+    background: linear-gradient(#222426, #3A3B47);
+    width: 600px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 650px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.rectangulo5 img{
+    height: 30px;
+    margin-left: 280px;
+}
+.rectangulo5 h4{
+    font-family: 'Roboto';
+    font-size: 17px;
+    color: white;
+    margin: 15PX;
+    text-align: center;
+}
+.rectangulo5 button{
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 800;
+    align-items: center;
+    margin-left: 140px;
+}
+.rectangulo6{
+    background: linear-gradient(#222426, #3A3B47);
+    width: 600px;
+    height: 470px;
+    margin-top: 30px;
+    margin-left: 650px;
+    border-radius: 20px;
+}
+.rectangulo6 h1{
+    font-family: 'Mabry Pro';
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.rectangulo6 h4{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+    margin: 15PX;
+    text-align: center;
+}
+.rectangulo6 img{
+    margin-left: 140px;
+}
+.rectangulo6 button{
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 800;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: -5px;
+}
+.rectangulo6 p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+    margin-left: 215px;
+    cursor: pointer;
+}
+.rectangulo7{
+    width: 620px;
+    height: 200px;
+    background: none;
+    margin-top: 150px;
+    margin-left: 650px;
+}
+.rectangulo7 p{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #B2B2B2;
+    text-align: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.pata1{
+    display: flex;
+    justify-content: center;
+}
+.imagen1{
+    height: 50px;
+    margin: 5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imagen2{
+    height: 50px;
+    margin: 5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pata2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.pata2 h5{
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+.pata2 p{
+    font-family: 'Roboto';
+    color: #B2B2B2 ;
+    cursor: pointer;
+    font-size: 15px;
+}
+.pata3{
+    display: flex;
+    justify-content:space-around;
+    height: 180px;
+    margin-top: 100px;
+}
+.pata3 img{
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.logo2 img{
+    height: 35px;
+}
+.cc{
+    font-family: 'Roboto';
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.cc img{
+    height: 15px;
+    margin-top: 18px;
+}
+.cc p{
+    font-family: 'Roboto';
+    color: #B2B2B2 ;
+    font-size: 13px;
+    margin-right: 5PX;
+}
+.cc h6{
+    cursor: pointer;
+}
